@@ -1,0 +1,214 @@
+
+/*-------------Reset.css--------------*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*---------------main.css---------------*/
+html, body {
+	font: 12px/100% 'Lucida Grande', Verdana, sans-serif;
+	min-width: 920px;
+}
+
+body {
+	padding: 0 30px;
+}
+
+a {
+	text-decoration: none;
+	color: #444;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.nav-list{
+	text-align: right;
+	margin: 15px 18px;
+}
+
+#header-box nav {
+ 	padding-top: 13px;
+ /*	border: 1px solid #000;*/
+}
+
+.nav-list li {
+	display: inline-block;
+	color: #369;
+	padding: 0 10px;
+	/*border: 1px solid #000;*/
+}
+
+
+.nav-list li a {
+	color: #336699;
+	text-decoration: none;
+}
+.nav-list li a:hover {
+	color: #18afe0;
+}
+
+.nav-list #sign-in {
+	color: #18afe0;
+}
+
+.nav-list #sign-in:hover {
+	color: #336699;
+}
+
+#date-greeting {
+	position: absolute;
+	top: 31px;
+	left: 58px;
+	font-size: 12px;
+}
+
+#date-greeting a {
+	color: #999;
+}
+/*-----------------main------------------*/
+#center-box	 {
+	width: 850px;
+	margin: 38px auto 0 auto;
+	text-align: center;
+}
+
+/*------headline box------*/
+
+
+.headline {
+	font: 700 58px/100% 'Crimson Text', serif;
+	letter-spacing: -2px;
+	margin: 13px 0 0 0;
+}
+
+.subhead {
+	font: 700 20px/100% 'Crimson Text', serif;
+	margin-top: 27px;
+}
+
+/*------Categories-------*/
+
+#categories {
+	margin-top: 30px;
+
+}
+
+#categories .category-box {
+	display: inline-block;
+	width:150px;
+	border: 1px solid #e8e8e8;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 18px;
+	padding: 20px 15px 25px 15px;
+	background: rgb(255,255,255); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(242,242,242,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(242,242,242,1) 100%);
+	-webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow:    0px 0px 1px rgba(0, 0, 0, 0.15);
+	box-shadow:         0px 0px 1px rgba(0, 0, 0, 0.15);
+}
+
+.category-box a {
+	text-decoration: none;
+}
+
+.category-box img {
+	padding-bottom: 10px;
+}
+
+.category-head{
+	font: bold 21px/100% 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #369;
+	text-decoration: underline;
+	padding: 15px 0;
+}
+
+.category-subhead {
+	color: #cc0000;
+	font-weight: bold;
+	padding: 16px 0 20px 0;
+	font-size: 14px;
+	/*letter-spacing: -1px;*/
+}
+
+
+sup {
+	height: 1;
+	line-height: 1.2;
+	vertical-align: top;
+	padding-top: 5px;
+	margin-right: -5px;
+	position: relative;
+	font-size: 11px;
+	color: #818181;
+
+}
+
+.category-box .description {
+	font-size: 14px;
+	color: #222;
+	margin-top: -2px;
+	line-height: 1.3em;
+}
+
+.divider {
+	display: block;
+	height: 12px;
+	margin: 42px auto 100px auto;
+
+}
