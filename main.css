@@ -139,9 +139,11 @@ a:hover {
 
 #categories {
 	margin-top: 30px;
-
 }
 
+#categories ul li {
+	display: inline;
+}
 #categories .category-box {
 	text-decoration: none;
 	display: inline-block;
