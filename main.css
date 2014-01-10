@@ -92,6 +92,7 @@ a:hover {
 	color: #336699;
 	text-decoration: none;
 }
+
 .nav-list li a:hover {
 	color: #18afe0;
 }
@@ -105,10 +106,12 @@ a:hover {
 }
 
 #date-greeting {
-	position: absolute;
+	/*position: absolute;
 	top: 31px;
-	left: 58px;
+	left: 58px;*/
 	font-size: 12px;
+	position: relative;
+	float: left;
 }
 
 #date-greeting a {
@@ -123,12 +126,16 @@ a:hover {
 
 /*------headline box------*/
 
+.headline-box {
+	height: 170px;
+}
 
 .headline {
 	font: 700 58px/100% 'Crimson Text', serif;
 	letter-spacing: -2px;
 	margin: 13px 0 0 0;
 }
+
 
 .subhead {
 	font: 700 20px/100% 'Crimson Text', serif;
@@ -185,6 +192,28 @@ a:hover {
 	font-size: 14px;
 }
 
+.category-headline .headline {
+	font-size: 46px;
+	margin-top: 10px;
+	letter-spacing: -1px;
+}
+
+.category-headline .headline span {
+	color: #336699;
+	text-decoration: underline;
+}
+
+.category-headline .subhead {
+	/*font-size: 15px;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-weight: normal;
+	line-height: 1.4em;*/
+	font: normal 15px/1.4em 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	margin-top: 20px;
+	margin-bottom: 42px;
+
+}
+
 
 sup {
 	height: 1;
@@ -209,5 +238,24 @@ sup {
 	display: block;
 	height: 12px;
 	margin: 42px auto 100px auto;
+}
 
+.arrow {
+	position: absolute;
+	height:69px;
+	width:69px;
+	margin-top: -35px;
+}
+
+.arrow-left1 {
+	left: 467px;
+}
+
+.arrow-left2 {
+	
+	left: 689px;
+}
+
+.arrow-right {
+	right: 450px;
 }
