@@ -248,14 +248,14 @@ sup {
 }
 
 .arrow-left1 {
-	left: 467px;
+	margin-left: -172px;
 }
 
 .arrow-left2 {
 	
-	left: 689px;
+	margin-left: 50px;
 }
 
 .arrow-right {
-	right: 450px;
+	margin-left: 120px;
 }
